@@ -10,5 +10,3 @@ function naoMexer(input) {
     const numero2 = input.split(' ')[1];
     solucao(numero1, numero2);
 }
-let input = require('fs').readFileSync('/dev/stdin','utf8');
-naoMexer(input);

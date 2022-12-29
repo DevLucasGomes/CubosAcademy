@@ -1,8 +1,6 @@
 function solucao(notaAlunoA,notaAlunoB) {
-	notaAlunoA = 8;
-	notaAlunoB = 6;
 	const resto = notaAlunoA % notaAlunoB;
-	const resposta = resto < 2;
+	const resposta = resto <= 2;
 	
 	console.log(resposta);
 	//seu codigo aqui
