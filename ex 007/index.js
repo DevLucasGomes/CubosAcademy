@@ -9,5 +9,9 @@ if (preçoProduto1 <= 18) {
 if (preçoProduto2 < 3) {
    if (preçoProduto2 >= 1.5) {
     console.log("comprei o produto 2");
+   } else {
+    console.log("Tem algo errado com o produto 2");
    }
-} 
+}
+
+console.log("Comprei o produto 3");
