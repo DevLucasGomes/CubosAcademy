@@ -1,17 +1,9 @@
-function solucao (notaAlunoA, notaAlunoB) {
-	notaAlunoA = 8;
-	notaAlunoB = 6;
-	
-	const notaG = notaAlunoA + notaAlunoB;
-	
-	if (notaG <= 2) {
-		console.log("DUPLA VÁLIDA", notaAlunoA, notaAlunoB);
+
+    let notaAluno1 = 8;
+	let notaAluno2 = 6;
+
+	if (notaAluno1 % notaAluno2 < 2) {
+		console.log("DUPLA VALIDA")
 	} else {
-		console.log("DUPLA INVÁLIDA")
+		console.log("DUPLA INVALIDA")
 	}
-	
-}
-function naoMexer(input) {
-	const [notaAlunoA, notaAlunoB] = input.trim().split("\n").map(x => Number(x));
-	solucao(notaAlunoA,notaAlunoB);
-}
